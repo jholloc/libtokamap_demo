@@ -2,7 +2,7 @@
   "DATA_SOURCE_CONFIG": {
     "UDA": {
       "ARGS": {
-        "source": "45272",
+        "source": "{{ shot }}",
         "host": "uda2.hpc.l",
         "port": "56565"
       }

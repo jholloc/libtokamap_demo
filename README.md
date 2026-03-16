@@ -21,13 +21,13 @@ Use `./test_library` again
 
 ```bash
 python3 -m venv venv
-./venv/bin/activate
+. ./venv/bin/activate
+pip install --upgrade pip
 ```
 
 ## Install libtokamap
 
 ```bash
-pip install --upgrade pip
 pip install libtokamap
 
 python -c 'import libtokamap; print(libtokamap.__version__)'
