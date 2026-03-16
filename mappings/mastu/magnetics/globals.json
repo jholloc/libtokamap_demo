@@ -1,1 +1,21 @@
-{}
+{
+  "FL_TYPE": "{{ FLUX_LOOPS[#0].TYPE }}",
+  "FL_NAME": "{{ FLUX_LOOPS[#0].LOOP_NAME }}",
+  "FLUX_LOOPS": [
+    {
+      "TYPE": "FLUX",
+      "LOOP_NAME": "F_BL_01",
+      "LOOPV": "LV_BL_01"
+    },
+    {
+      "TYPE": "FLUX",
+      "LOOP_NAME": "F_BL_02",
+      "LOOPV": "LV_BL_02"
+    },
+    {
+      "TYPE": "FLUX",
+      "LOOP_NAME": "F_BL_03",
+      "LOOPV": "LV_BL_03"
+    }
+  ]
+}

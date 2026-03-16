@@ -6,5 +6,12 @@
       "signal": "/AMC/PLASMA_CURRENT"
     },
     "scale": 1000
+  },
+  "flux_loop[#]/flux/data": {
+    "map_type": "DATA_SOURCE",
+    "data_source": "UDA",
+    "args": {
+      "signal": "/AMB/{{ FL_TYPE }}/{{ FL_NAME }}"
+    }
   }
 }

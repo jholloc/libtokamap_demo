@@ -16,6 +16,9 @@ def map(mapper: libtokamap.Mapper, experiment: str, mapping_path: str, shot: int
 
 def map_all(mapper: libtokamap.Mapper, experiment: str, shot: int):
     map(mapper, experiment, "magnetics/ip/data", shot)
+    map(mapper, experiment, "magnetics/flux_loop[0]/flux/data", shot)
+    map(mapper, experiment, "magnetics/flux_loop[1]/flux/data", shot)
+    map(mapper, experiment, "magnetics/flux_loop[2]/flux/data", shot)
 
 
 def main(args):
