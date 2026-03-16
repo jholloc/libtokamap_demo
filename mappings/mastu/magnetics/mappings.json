@@ -1,0 +1,10 @@
+{
+  "ip/data": {
+    "map_type": "DATA_SOURCE",
+    "data_source": "UDA",
+    "args": {
+      "signal": "/AMC/PLASMA_CURRENT"
+    },
+    "scale": 1000
+  }
+}

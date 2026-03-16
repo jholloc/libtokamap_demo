@@ -1,0 +1,5 @@
+mapping_directory = "/Users/jhollocombe/Projects/demo_mappings/mappings"
+schemas_directory = "/Users/jhollocombe/Projects/demo_mappings/venv/lib/python3.14/site-packages/tokamap/schemas"
+trace_enabled = false
+cache_enabled = false
+custom_function_libraries = []
