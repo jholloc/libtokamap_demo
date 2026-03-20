@@ -1,3 +1,5 @@
+> :warning: This repository is for illustrative purposes only! The code here shows how one might test a libTokaMap data source but the one being used will not work unless you have data access to MAST-Upgrade (running on UKAEA machines or using a VPN).
+
 # Demo steps
 
 ## Building library tester
